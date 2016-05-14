@@ -23,7 +23,7 @@ DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
 DocumentBuilder db = dbf.newDocumentBuilder();
 
-Document doc = db.parse("C:/Users/guest1/Documents/javaEclipse/jspdemo/WebContent/firstxml.xml");
+Document doc = db.parse("firstxml.xml");
 
 NodeList RegistrationNo = doc.getElementsByTagName("RegistrationNo");
 NodeList StudentId = doc.getElementsByTagName("StudentID");
